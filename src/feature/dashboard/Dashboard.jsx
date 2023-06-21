@@ -2,7 +2,7 @@ import { Grid, Typography } from "@mui/material";
 import React from "react";
 import PostList from "../blog-post/PostList";
 import GoogleMapReact from "google-map-react";
-import MapMarker from "../../component/MapMarker";
+import MapMarker from "../../components/MapMarker";
 // import { postArray } from "../../data/posts";
 
 const defaultProps = {

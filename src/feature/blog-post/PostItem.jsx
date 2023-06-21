@@ -14,12 +14,13 @@ const PostItem = (props) => {
   return (
     <Card>
       <CardActionArea onClick={handleClick}>
-        <img
-          src={image}
-          alt="default"
-          style={{ width: "100%", height: "100%", objectFit: "cover" }}
-          height={200}
-        />
+        <div style={{ height: "130px" }}>
+          <img
+            src={image}
+            alt="default"
+            style={{ width: "100%", height: "100%", objectFit: "cover" }}
+          />
+        </div>
 
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">

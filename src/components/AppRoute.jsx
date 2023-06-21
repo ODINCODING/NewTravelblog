@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, Routes } from "react-router";
 import Menubar from "./Menubar";
-import Dashboard from "../feature/dashboard";
+import Dashboard from "../feature/dashboard/Dashboard";
 import Contact from "../feature/contact/Contact";
 import PostAdd from "../feature/blog-post/PostAdd";
 import PostView from "../feature/blog-post/PostView";

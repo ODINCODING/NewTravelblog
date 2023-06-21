@@ -4,7 +4,7 @@ import { postArray } from "../../data/posts";
 import { Grid } from "@mui/material";
 import PostItem from "./PostItem";
 import GoogleMapReact from "google-map-react";
-import MapMarker from "../../component/MapMarker";
+import MapMarker from "../../components/MapMarker";
 
 const PostView = () => {
   const { id } = useParams();
